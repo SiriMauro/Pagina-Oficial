@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #f2f2f2;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-image: radial-gradient(circle 767px at 10.2% 22.1%, rgba(11,218,81,1) 0%, rgba(0, 191,255,1)90%);
+    min-height: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size:  2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+p {
+    margin: 0 0 1.5em 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+#main-header {
+    background: #333;
+    color: white;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+#main-header a{
+    color: white;
+}
+#titulo{
+    box-shadow: 8px, 7px,  #0b76a6;
+    width: 2px;
+}
+/*
+* logo
+*/
+#logo-header{
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+} 
+#logo-header:hover{
+    color: #0b76a6;
+}
+#logo-header .site-name{
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+#logo-header .site-desc{
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+/*
+* Titulo
+*/
+.grid {
+    display: grid;
+    grid-template-columns: 50px 300px 1fr;
+    grid-template-rows: 200px 2fr 5% 1fr;  
+    column-gap: 400px;
+}
+
+.jojo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.a{
+
+    width: 150%;
+}
+.b{
+    width: 120%;
+}
+
+
+/*
+* Navegación
+*/
+.top-side{
+    background-color: rgb(47, 151, 151);
+    display: grid;
+    grid-template-columns: 15px 700px 1fr;
+    grid-template-rows: 600px 2fr 5% 1fr;
+width: 300px;
+border-top-style:double 15px;
+ border: outset 10px;
+ border-color: #333;
+}
+
+
+
+
+#text-side{
+    font-weight: 600;
+    background-color: rgb(47, 151, 151);
+    color: white;
+    height: 580px;
+    width: 300px;
+    line-height: 0.4em;
+    
+}
+.side-bar{
+
+}
+
+.datos{
+    font-weight: 700;
+    text-align: center;
+}
+
+.texto{
+    font-weight: 400;
+    position: center ;
+    top: 0px ; left: 67px;
+    content:;
+}
+
+.info-ul{
+    font-weight: 400;
+    position: center ;
+    top: 0px ; left: 50px;;  
+    margin-top: 40px;
+}
+
+
+nav {
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+ nav ul li{
+    display: inline-block;
+    line-height: 80px;
+ }
+ nav ul li a{
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+ }
+ nav ul li a:hover {
+    background: #0b76a6;
+ }
+ /*
+ * contenido
+ */
+ .foto-yo{
+    position: center;
+    max-width: 150px;
+    max-height: auto;
+    border-radius: 
+ }
+
+.titulo_principal{
+    
+    background-color: ;
+    height: 100px;
+    text-shadow: 1px 4px 2px rgb(7, 8, 8) ;
+}
+.titulo{
+    background-color: ;
+    font-size: 20px;
+
+}
+
+ #main-content{
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+ }
+ #main-content header,
+ #main-content .content{
+    padding: 40px;
+ }
+  
+ .img_java{
+    display: grid;
+    grid-template-columns: 50px 700px 1fr;
+    grid-template-rows: 200px 2fr 5% 1fr;  
+    column-gap: 23px;;
+ }
+
+ /*
+ * Pie de pagina
+ */
+ #main-footer {
+    background: #333;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+#main-footer p{
+    margin: 0;
+}
+#main-footer a {
+    color: white;
+}
+.buttons{
+    max-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotoyo{
+
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all .4s ease-in-out;
+}
+.buttons a:hover{
+    transform: scale(1.2);
+}
+
+.foto2da{
+    display: grid;
+    grid-template-columns: 73px 300px 1fr ;
+    grid-template-rows: ;
+}
+
+.dea{
+
+  width: 100%;
+}
+
+.foto a{
+    display: grid;
+    text-decoration: none;
+    font-size: 28px;
+    width: 140px;
+    height: 140px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 5%;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.5);
+    transition: all .4s ease-in-out;
+    border: solid;
+}
+.foto a:hover{
+    transform: scale(1.2);
+}
